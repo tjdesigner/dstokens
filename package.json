@@ -1,0 +1,37 @@
+{
+  "name": "@vr-spe/tokens",
+  "version": "0.1.0",
+  "description": "tokens",
+  "author": "Denner Rondinely <denner.rondinely@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "module": "lib/index.es.js",
+  "type": "module",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-import-helpers": "^1.3.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-sonarjs": "^0.21.0",
+    "prettier": "^3.0.3",
+    "rollup": "^3.26.3",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "typescript": "^5.1.6"
+  }
+}
